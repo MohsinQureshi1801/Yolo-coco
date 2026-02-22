@@ -51,6 +51,7 @@
 4. Added JSON/path validation and robust skip accounting.
 5. Added safe symlink utility with linked/skipped summaries.
 6. Added training guard toggle (`RUN_TRAINING`) to prevent accidental heavy runs.
+7. Added free-tier budget controls (`time`, `fraction`, `freeze`) for resumable short sessions.
 
 ### Suggested next steps
 1. Split notebook utilities into a Python module (e.g., `src/data_prep.py`) and keep notebook as an orchestration/demo layer.
